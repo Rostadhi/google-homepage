@@ -95,5 +95,31 @@ a:hover {
     background-repeat: no-repeat;
     border-radius: 50%;
   }
+  .main {
+      text-align: center;
+      margin-top: 40px;
+      flex: 1;
+  }
+  .main_user {
+      padding-top: 109px;
+  }
   
-  
+  .main_input {
+      margin-top: 40px;
+      position: relative;
+  }
+  .main_form {
+      max-width: 600px;
+      margin: 0 auto;
+  }
+
+  .main_group {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 50px;
+      width: 100%;
+      border: 2px solid #259f25;
+      border-radius: 25px;
+      padding: 5px 9px 0 17px;
+  }
